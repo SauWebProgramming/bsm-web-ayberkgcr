@@ -18,5 +18,7 @@ namespace WebApp.Models
         public string kad { get; set; }
         public string sifre { get; set; }
         public Nullable<sbyte> role { get; set; }
+
+        public virtual bool BeniHatirla { get; set; }
     }
 }
